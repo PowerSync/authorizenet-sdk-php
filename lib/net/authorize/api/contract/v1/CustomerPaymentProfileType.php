@@ -153,7 +153,7 @@ class CustomerPaymentProfileType extends CustomerPaymentProfileBaseType implemen
                 }
             }
         }
-        if (get_parent_class() == ""){
+        if (get_parent_class($this) == ""){
             return $values;
         }
         else{

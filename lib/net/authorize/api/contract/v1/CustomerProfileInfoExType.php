@@ -72,7 +72,7 @@ class CustomerProfileInfoExType extends CustomerProfileExType implements \JsonSe
                 }
             }
         }
-        if (get_parent_class() == ""){
+        if (get_parent_class($this) == ""){
             return $values;
         }
         else{

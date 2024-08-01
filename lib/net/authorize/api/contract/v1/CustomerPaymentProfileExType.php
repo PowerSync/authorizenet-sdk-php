@@ -72,7 +72,7 @@ class CustomerPaymentProfileExType extends CustomerPaymentProfileType implements
                 }
             }
         }
-        if (get_parent_class() == ""){
+        if (get_parent_class($this) == ""){
             return $values;
         }
         else{

@@ -71,7 +71,7 @@ class AuDeleteType extends AuDetailsType implements \JsonSerializable
                 }
             }
         }
-        if (get_parent_class() == ""){
+        if (get_parent_class($this) == ""){
             return $values;
         }
         else{

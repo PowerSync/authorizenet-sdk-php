@@ -45,7 +45,7 @@ class ProfileTransAuthOnlyType extends ProfileTransOrderType implements \JsonSer
                 }
             }
         }
-        if (get_parent_class() == ""){
+        if (get_parent_class($this) == ""){
             return $values;
         }
         else{
